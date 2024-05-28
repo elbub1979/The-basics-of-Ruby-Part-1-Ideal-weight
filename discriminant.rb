@@ -16,7 +16,7 @@ if d.positive?
   result = "Дискриминант: #{d}, корни: #{k1}, #{k2}"
 elsif d.zero?
   k1 = (-b + Math.sqrt(d)) / (2 * a)
-  result = "Дискриминант: #{d}, корни: #{k1}, #{k1}"
+  result = "Дискриминант: #{d}, корни: #{k1}"
 end
 
 puts result
