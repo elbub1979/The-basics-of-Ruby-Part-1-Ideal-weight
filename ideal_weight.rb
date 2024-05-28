@@ -14,7 +14,7 @@ end
 result = (height - 110) * 1.15
 
 if result.negative?
-  p 'Ваш вес уже оптимальный'
+  puts 'Ваш вес уже оптимальный'
 else
-  p "#{name}, ваш вес должен составлять #{result}"
+  puts "#{name}, ваш вес должен составлять #{result}"
 end
